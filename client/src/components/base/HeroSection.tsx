@@ -13,7 +13,7 @@ const HeroSection = () => {
       conversations in seconds.
     </p>
     <Link href="/dashboard">
-      <Button size="lg" className="animate-pulse">
+      <Button variant="outline"  size="lg" className="animate-pulse bg-black text-white ">
         Start Chatting
       </Button>
     </Link>

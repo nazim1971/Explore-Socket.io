@@ -1,14 +1,14 @@
 import FeatureSection from "@/components/base/FeatureSection"
 import Footer from "@/components/base/Footer"
 import HeroSection from "@/components/base/HeroSection"
+import Navbar from "@/components/base/Navbar"
 import UserReviews from "@/components/base/UserReviews"
 
-const page = () => {
+const LandingPage = () => {
   return (
-    <div>
-      <h3 className="text-3xl font-semibold">
-        This is quick - app 
-      </h3>
+    <div className="min-h-screen flex flex-col " >
+      
+      <Navbar/>
       <HeroSection/>
      <FeatureSection/>
      <UserReviews/>
@@ -17,4 +17,4 @@ const page = () => {
   )
 }
 
-export default page
+export default LandingPage
