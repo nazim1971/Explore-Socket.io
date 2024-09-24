@@ -19,7 +19,7 @@ const HeroSection = () => {
     </Link>
 
     <div className="mt-12 w-full max-w-5xl flex justify-center">
-      {/* Placeholder for Illustration/Image */}
+     
       <img
         src="/image/conversation.svg"
         alt="Illustration"
