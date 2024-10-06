@@ -3,6 +3,6 @@ import { authOptions } from "./options"
 
 
 
-const handler = NextAuth(authOptions)
+const nextAuth = NextAuth(authOptions)
 
-export { handler as GET, handler as POST}
+export { nextAuth as GET, nextAuth as POST}

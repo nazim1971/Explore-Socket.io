@@ -63,12 +63,12 @@ const Register = () => {
               </form>
       
               <div className="flex items-center justify-between mt-4">
-                  <span className="w-1/5 border-b  md:w-1/4"></span>
-      
-                  <Link href='/login' className="text-xs  uppercase  hover:underline text-rose-500">or sign in</Link>
-      
-                  <span className="w-1/5 border-b md:w-1/4"></span>
-              </div>
+                <span className="w-1/5 border-b  md:w-1/4"></span>
+    
+                <Link href='/login' className="text-xs  uppercase  hover:underline text-rose-500">or sign in</Link>
+    
+                <span className="w-1/5 border-b md:w-1/4"></span>
+            </div>
           </div>
           <div className="hidden bg-cover lg:block lg:w-1/2" style={{backgroundImage: 'url(https://i.ibb.co/F4SRb4t/sign-up.jpg)'}} ></div>
       </div>
